@@ -83,6 +83,8 @@ DATABASES = {
         'NAME': 'python_travelproject',
         'USER': 'root',
         'PASSWORD': '',
+        'HOST': '*',
+        'PORT': '',
     }
 }
 
