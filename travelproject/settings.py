@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'travelproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'python_travelproject',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '*',
-        'PORT': '',
+        'PASSWORD': 'MvKNsLTxGvDJZmLCCOCp',
+        'HOST': 'containers-us-west-182.railway.app',
+        'PORT': '7741',
     }
 }
 
