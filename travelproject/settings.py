@@ -27,7 +27,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-
+CSRF_TRUSTED_ORIGINS = [
+'https://travelproject.up.railway.app'
+]
+CORS_ORIGIN_WHITELIST = [
+'https://travelproject.up.railway.app',
+]
+CORS_ORIGIN_ALLOW_ALL = True
 # Application definition
 
 INSTALLED_APPS = [
