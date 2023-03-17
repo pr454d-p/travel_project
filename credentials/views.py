@@ -31,7 +31,7 @@ def sign_up(request):
             messages.info(request,'Password does not match')
             return redirect('sign_up')
         elif User.objects.filter(username=user_name).exists():
-            messages.info(request,'Username')
+            messages.info(request,'Username already used')
             return redirect('sign_up')
         elif User.objects.filter(email = email).exists():
             messages.info(request,'Email already used')

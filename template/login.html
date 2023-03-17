@@ -107,6 +107,9 @@
 							<div style="margin-bottom: 18px"><input type="text" class="contact_input inpt" name="username" placeholder="User-name" required="required"><div class="input_border"></div></div>
 							<div style="margin-bottom: 18px"><input type="password" class="contact_input inpt" name="password" placeholder="Password" required="required"><div class="input_border"></div></div>
 							<button class="contact_button">Login</button>
+							{% for msg in messages %}
+							<h6 style="color: red;">{{msg}}</h6>
+							{% endfor %}
 						</form>
 						<!-- <div class="home_search_title">Search for your trip</div>
 						<div class="home_search_content">
